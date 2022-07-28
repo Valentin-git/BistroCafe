@@ -47,6 +47,10 @@ fieldset {
   text-decoration: none;
 }
 
+.general-button__link:hover {
+  background: #f7651e;
+}
+
 .header-block {
   display: flex;
   flex-direction: column;
@@ -439,11 +443,17 @@ fieldset {
 .reviews-carousel__text {
   color: white;
   width: 55%;
-  margin-top: 26px;
-  margin-bottom: 40px;
+  margin: auto;
+  padding-top: 26px;
+  padding-bottom: 40px;
   font-family: "LatoRegular";
   font-size: calc(12px + 14 * (100vw / 1800));
   text-align: center;
+}
+
+.reviews-carousel__photo {
+  display: flex;
+  justify-content: center;
 }
 
 .reviews-carousel__name {
@@ -461,17 +471,19 @@ fieldset {
   font-size: calc(13px + 4 * (100vw / 1800));
 }
 
-.reviews-carousel__icon-prev {
+.reviews-carousel > .slick-prev {
   background: url(../img/what-client’s-say/prev-next.png);
   width: 42px;
   height: 42px;
   position: absolute;
   top: 47px;
   left: 128px;
+  font-size: 0;
   cursor: pointer;
+  z-index: 111;
 }
 
-.reviews-carousel__icon-next {
+.reviews-carousel > .slick-next {
   background: url(../img/what-client’s-say/prev-next.png);
   transform: rotate(180deg);
   width: 42px;
@@ -479,7 +491,9 @@ fieldset {
   position: absolute;
   top: 47px;
   right: 128px;
+  font-size: 0;
   cursor: pointer;
+  z-index: 111;
 }
 
 .booking-form {
@@ -793,10 +807,10 @@ fieldset {
   .view-menu__item_col {
     width: 33.5%;
   }
-  .reviews-carousel__icon-prev {
+  .reviews-carousel .slick-prev {
     left: 0;
   }
-  .reviews-carousel__icon-next {
+  .reviews-carousel .slick-next {
     right: 0;
   }
   .subscribe {

@@ -37,6 +37,9 @@ fieldset {
     padding: 17px 47px;
     border-radius: 33px;
     text-decoration: none;
+    &:hover {
+      background: #f7651e;
+    }
   }
 }
 .header-block {

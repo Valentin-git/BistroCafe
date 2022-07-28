@@ -53,10 +53,16 @@
     }
   }
   .reviews-carousel {
-    &__icon-prev {
+    // &__icon-prev {
+    //   left: 0;
+    // }
+    // &__icon-next {
+    //   right: 0;
+    // }
+    .slick-prev {
       left: 0;
     }
-    &__icon-next {
+    .slick-next {
       right: 0;
     }
   }

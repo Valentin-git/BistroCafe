@@ -30,12 +30,19 @@
   &__text {
     color: white;
     width: 55%;
-    margin-top: 26px;
-    margin-bottom: 40px;
+    // margin-top: 26px;
+    // margin-bottom: 40px;
+    margin: auto;
+    padding-top: 26px;
+    padding-bottom: 40px;
     font-family: "LatoRegular";
     // font-size: 27px;
     font-size: calc(12px + 14 * (100vw / 1800));
     text-align: center;
+  }
+  &__photo {
+    display: flex;
+    justify-content: center;
   }
   &__name {
     color: #fe7634;
@@ -51,16 +58,37 @@
       font-size: calc(13px + 4 * (100vw / 1800));
     }
   }
-  &__icon-prev {
+  // &__icon-prev {
+  //   background: url(../img/what-client’s-say/prev-next.png);
+  //   width: 42px;
+  //   height: 42px;
+  //   position: absolute;
+  //   top: 47px;
+  //   left: 128px;
+  //   cursor: pointer;
+  // }
+  // &__icon-next {
+  //   background: url(../img/what-client’s-say/prev-next.png);
+  //   transform: rotate(180deg);
+  //   width: 42px;
+  //   height: 42px;
+  //   position: absolute;
+  //   top: 47px;
+  //   right: 128px;
+  //   cursor: pointer;
+  // }
+  > .slick-prev {
     background: url(../img/what-client’s-say/prev-next.png);
     width: 42px;
     height: 42px;
     position: absolute;
     top: 47px;
     left: 128px;
+    font-size: 0;
     cursor: pointer;
+    z-index: 111;
   }
-  &__icon-next {
+  > .slick-next {
     background: url(../img/what-client’s-say/prev-next.png);
     transform: rotate(180deg);
     width: 42px;
@@ -68,6 +96,8 @@
     position: absolute;
     top: 47px;
     right: 128px;
+    font-size: 0;
     cursor: pointer;
+    z-index: 111;
   }
 }
