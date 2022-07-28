@@ -60,6 +60,10 @@
     font-family: "LatoBold";
     // font-size: 15px;
     font-size: calc(11px + 4 * (100vw / 1800));
+    cursor: pointer;
+    &:hover {
+      background: #f7651e;
+    }
   }
 }
 .footer-menu {

@@ -705,6 +705,11 @@ fieldset {
   height: 48px;
   font-family: "LatoBold";
   font-size: calc(11px + 4 * (100vw / 1800));
+  cursor: pointer;
+}
+
+.subscribe__btn:hover {
+  background: #f7651e;
 }
 
 .footer-menu {
