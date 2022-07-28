@@ -851,6 +851,15 @@ fieldset {
   .social_show {
     display: flex;
   }
+  .header__inner {
+    padding-top: 25px;
+  }
+  .intro {
+    height: auto;
+  }
+  .intro__inner {
+    margin-bottom: 100px;
+  }
 }
 
 @media (max-width: 576px) {
