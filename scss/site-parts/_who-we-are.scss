@@ -1,0 +1,44 @@
+.who-we-are {
+  background: url(../img/who-we-are/bg.jpg) no-repeat;
+  background-size: cover;
+  // height: 625px;
+  display: flex;
+  align-items: center;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+  }
+  &__suptitle {
+    color: #fe7634;
+    font-family: LatoBold;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  &__title {
+    margin-bottom: 25px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 800;
+    // font-size: 45px;
+    font-size: calc(30px + 15 * (100vw / 1800));
+  }
+  &__text {
+    margin-bottom: 36px;
+    width: 90%;
+    color: #4e4f4e;
+    font-family: "LatoRegular";
+    // font-size: 20px;
+    font-size: calc(13px + 7 * (100vw / 1800));
+  }
+  &__img {
+    width: 94%;
+  }
+}

@@ -1,0 +1,57 @@
+.booking-form {
+  background: url(../img/bookin-form/bg.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.booking-form-enter {
+  margin-top: 33px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  > fieldset {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+  }
+  // &__item {
+  //   margin-right: 20px;
+  //   &:last-child {
+  //     margin-right: 0;
+  //   }
+  // }
+  &__label-icons {
+    display: flex;
+    // align-items: center;
+    margin-bottom: 18px;
+  }
+  &__label {
+    color: #4d4543;
+    font-family: "LatoBold";
+    font-size: 16px;
+  }
+  &__icon {
+    width: 17px;
+    height: auto;
+    margin-right: 10px;
+    &_date {
+      background: url(../img/bookin-form/date.png) no-repeat;
+    }
+    &_time {
+      background: url(../img/bookin-form/time.png) no-repeat;
+    }
+    &_people{
+      background: url(../img/bookin-form/people.png) no-repeat;
+    }
+  }
+  &__input {
+    padding-left: 30px;
+    color: #e7e7e6;
+    border: 2px solid #e7e7e6;
+    border-radius: 28px;
+    width: 313px;
+    height: 48px;
+    font-family: "LatoBold";
+    font-size: 15px;
+  }
+}

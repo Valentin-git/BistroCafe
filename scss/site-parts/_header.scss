@@ -1,0 +1,22 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  &__inner {
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.social {
+  display: flex;
+  &__item {
+    margin-right: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,157 @@
+
+@media (max-width: 1700px) {
+  .meet-our-chef {
+    &::after {
+      background-size: auto;
+    }
+  }
+}
+@media (max-width: 1399px) {
+  .view-menu__top_s, .view-menu__bottom_s {
+    // width: 285px;
+    height: 285px;
+  }
+}
+@media (max-width: 1199px) {
+  .who-we-are {
+    padding: 30px 0;
+  }
+  .view-menu__top_s, .view-menu__bottom_s {
+    // width: 240px;
+    height: 240px;
+  }
+  .subscribe {
+    padding-left: 84px;
+    height: 180px;
+    &__input {
+      width: 280px;
+      height: 43px;
+    }
+    &__btn {
+      height: 43px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .intro {
+    &__text {
+      width: 70%;
+    }
+  }
+  .delicious-flavour {
+    background-size: auto;
+  }
+  .view-menu {
+    justify-content: center;
+    &__item_col {
+      width: 33.5%;
+    }
+  }
+  .reviews-carousel {
+    &__icon-prev {
+      left: 0;
+    }
+    &__icon-next {
+      right: 0;
+    }
+  }
+  .subscribe {
+    padding-left: 47px;
+    // background: none;
+    height: 136px;
+    &__input {
+      width: 190px;
+    }
+    &__btn {
+      width: 118px;
+    }
+  }
+}
+@media (max-width: 768px) { 
+  .general-button {
+    &__link {
+      padding: 15px 32px;
+    }
+  }
+  .intro {
+    &__text {
+      width: 100%;
+    }
+  }
+  .view-menu {
+    &__item_col {
+      width: 44.5%;
+    }
+  }
+  .blog {
+    &__col {
+      width: 48%;
+      &_left {
+        order: 3;
+      }
+      &_s {
+        width: 100%;
+        order: 1;
+      }
+      &_right {
+        order: 2;
+        padding-right: 20px;
+      }
+    }
+    &__item {
+      &_s {
+        margin: 0 0;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .subscribe {
+    background: none;
+    padding-left: 0;
+    &__input {
+    }
+    &__btn {
+    }
+  }
+}
+@media (max-width: 600px) { 
+  .container {
+    padding: 0 24px;
+  }
+  .social {
+    display: none;
+    &_show {
+      display: flex;
+    }
+  }
+}
+@media (max-width: 576px) {
+  .view-menu {
+    &__item_col {
+      width: 55.5%;
+    }
+    &__top_s, &__bottom_s {
+      // width: auto;
+    }
+  }
+}
+@media (max-width: 500px) {
+  .blog {
+    &__col {
+      &_right {
+        padding-right: 0;
+        width: 100%;
+      }
+      &_left {
+        width: 100%;
+      }
+    }
+    &__img{
+      width: 100%;
+    }
+    &__col {
+      // width: 100px;
+    }
+  }
+
+}

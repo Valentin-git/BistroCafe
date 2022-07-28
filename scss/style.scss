@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "LatoRegular";
+	src: url('../fonts/Lato-Regular.ttf') format("truetype");
+}
+@font-face {
+	font-family: "LatoBold";
+	src: url('../fonts/Lato-Bold.ttf') format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  outline: none;
+  line-height: 1.4;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+button {
+  border: 0;
+}
+fieldset {
+  border: 0;
+}
+.general-button {
+  z-index: 1;
+  &__link {
+    display: inline-block;
+    background: #fe7634;
+    color: white;
+    font-family: LatoBold;
+    // font-size: 15px;
+    font-size: calc(11px + 4 * (100vw / 1800));
+    padding: 17px 47px;
+    border-radius: 33px;
+    text-decoration: none;
+  }
+}
+.header-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 800;
+    // font-size: 45px;
+    font-size: calc(30px + 15 * (100vw / 1800));
+  }
+  &__text {
+    margin-bottom: 33px;
+    color: #d2d2d2;
+    font-family: "LatoRegular";
+    font-size: 16px;
+    font-size: calc(12px + 4 * (100vw / 1800));
+  }
+  // &__icon {
+  //   margin-bottom: 60px;
+  // }
+}
+.booking-form-general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 110px;
+  &__title {
+    color: #1b1b1b;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 800;
+    // font-size: 40px;
+    font-size: calc(30px + 15 * (100vw / 1800));
+  }
+  &__text {
+    color: #545454;
+    margin-bottom: 30px;
+    font-family: "LatoRegular";
+    // font-size: 16px;
+    font-size: calc(12px + 4 * (100vw / 1800));
+  }
+}
+
+@import 'site-parts/header';
+@import 'site-parts/intro';
+@import 'site-parts/who-we-are';
+@import 'site-parts/delicious-flavour';
+@import 'site-parts/meet-our-chef';
+@import 'site-parts/what-client-say';
+@import 'site-parts/booking-form';
+@import 'site-parts/blog';
+@import 'site-parts/footer';
+@import 'media';
+
+
