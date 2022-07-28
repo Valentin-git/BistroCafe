@@ -41,6 +41,11 @@
   .delicious-flavour {
     background-size: auto;
   }
+  .booking-form-enter {
+    &__input {
+      width: 228px;
+    }
+  }
   .view-menu {
     justify-content: center;
     &__item_col {
@@ -83,6 +88,17 @@
       width: 44.5%;
     }
   }
+  .booking-form-enter {
+    &__item {
+      margin-bottom: 30px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    &__input {
+      width: 100%;
+    }
+  }
   .blog {
     &__col {
       width: 48%;
@@ -108,11 +124,18 @@
   .subscribe {
     background: none;
     padding-left: 0;
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     &__input {
+      width: 245px;
     }
     &__btn {
     }
   }
+
 }
 @media (max-width: 600px) { 
   .container {
@@ -145,8 +168,23 @@
       // width: auto;
     }
   }
+  .view-menu {
+    &___col {
+      &_rew {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+    }
+  }
 }
 @media (max-width: 500px) {
+  .view-menu {
+    &__item {
+      &_col {
+        width: auto;
+      }
+    }
+  }
   .blog {
     &__col {
       &_right {
@@ -164,5 +202,17 @@
       // width: 100px;
     }
   }
-
+  @media (max-width: 427px) {
+    .subscribe {
+      &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px
+      }
+      &__input {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }

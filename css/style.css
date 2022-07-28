@@ -84,6 +84,7 @@ fieldset {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 800;
+  text-align: center;
   font-size: calc(30px + 15 * (100vw / 1800));
 }
 
@@ -783,6 +784,9 @@ fieldset {
   .delicious-flavour {
     background-size: auto;
   }
+  .booking-form-enter__input {
+    width: 228px;
+  }
   .view-menu {
     justify-content: center;
   }
@@ -817,6 +821,15 @@ fieldset {
   .view-menu__item_col {
     width: 44.5%;
   }
+  .booking-form-enter__item {
+    margin-bottom: 30px;
+  }
+  .booking-form-enter__item:last-child {
+    margin-right: 0;
+  }
+  .booking-form-enter__input {
+    width: 100%;
+  }
   .blog__col {
     width: 48%;
   }
@@ -838,6 +851,14 @@ fieldset {
   .subscribe {
     background: none;
     padding-left: 0;
+  }
+  .subscribe__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe__input {
+    width: 245px;
   }
 }
 
@@ -866,9 +887,16 @@ fieldset {
   .view-menu__item_col {
     width: 55.5%;
   }
+  .view-menu___col_rew {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 
 @media (max-width: 500px) {
+  .view-menu__item_col {
+    width: auto;
+  }
   .blog__col_right {
     padding-right: 0;
     width: 100%;
@@ -878,6 +906,18 @@ fieldset {
   }
   .blog__img {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) and (max-width: 427px) {
+  .subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .subscribe__input {
+    margin-bottom: 10px;
   }
 }
 /*# sourceMappingURL=style.css.map */
