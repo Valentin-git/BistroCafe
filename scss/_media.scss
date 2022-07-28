@@ -141,7 +141,12 @@
     &__btn {
     }
   }
-
+  .reviews-carousel > .slick-prev {
+    top: 196px;
+  }
+  .reviews-carousel > .slick-next {
+    top: 196px;
+  }
 }
 @media (max-width: 600px) { 
   .container {
