@@ -55,6 +55,7 @@ fieldset {
     font-weight: 800;
     // font-size: 45px;
     font-size: calc(30px + 15 * (100vw / 1800));
+    text-align: center;
   }
   &__text {
     margin-bottom: 33px;
