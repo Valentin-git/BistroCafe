@@ -627,7 +627,7 @@ fieldset {
 }
 
 .blog__col {
-  width: 21%;
+  width: 26%;
 }
 
 .blog__col_s {
@@ -914,6 +914,9 @@ fieldset {
   }
   .booking-form-enter__input {
     width: 100%;
+  }
+  .reviews-carousel__text {
+    width: 73%;
   }
   .blog__col {
     width: 50%;
