@@ -77,6 +77,16 @@
       width: 118px;
     }
   }
+  .blog {
+    &__col {
+      &_left, &_right {
+        width: 26%;
+      }
+      
+  
+    }
+  }
+  
 }
 @media (max-width: 768px) { 
   .general-button {

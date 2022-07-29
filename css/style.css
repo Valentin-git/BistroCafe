@@ -627,7 +627,7 @@ fieldset {
 }
 
 .blog__col {
-  width: 26%;
+  width: 21%;
 }
 
 .blog__col_s {
@@ -893,6 +893,9 @@ fieldset {
   }
   .subscribe__btn {
     width: 118px;
+  }
+  .blog__col_left, .blog__col_right {
+    width: 26%;
   }
 }
 
