@@ -2,6 +2,7 @@
   background: url(../img/blog/bg.jpg) no-repeat;
   background-size: cover;
   height: 100%;
+  padding-bottom: 100px;
   &__inner {
     display: flex;
     justify-content: center;
@@ -27,7 +28,7 @@
     display: flex;
   }
   &__content {
-    padding: 30px;
+    padding: 15px;
     border-left: 2px solid #e1e1e1;
     border-right: 2px solid #e1e1e1;
     border-bottom: 2px solid #e1e1e1;
@@ -54,8 +55,8 @@
   }
   &__text {
     color: #494949;
-    margin-top: 37px;
-    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-bottom: 16px;
     font-family: "LatoRegular";
     // font-size: 17px;
     font-size: calc(13px + 4 * (100vw / 1800));

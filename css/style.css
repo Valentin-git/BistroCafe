@@ -455,7 +455,7 @@ fieldset {
 .what-client-say {
   background: url(../img/what-client’s-say/bg.jpg) no-repeat;
   background-size: cover;
-  height: 760px;
+  padding-bottom: 100px;
   position: relative;
 }
 
@@ -607,6 +607,7 @@ fieldset {
   background: url(../img/blog/bg.jpg) no-repeat;
   background-size: cover;
   height: 100%;
+  padding-bottom: 100px;
 }
 
 .blog__inner {
@@ -638,7 +639,7 @@ fieldset {
 }
 
 .blog__content {
-  padding: 30px;
+  padding: 15px;
   border-left: 2px solid #e1e1e1;
   border-right: 2px solid #e1e1e1;
   border-bottom: 2px solid #e1e1e1;
@@ -670,8 +671,8 @@ fieldset {
 
 .blog__text {
   color: #494949;
-  margin-top: 37px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 16px;
   font-family: "LatoRegular";
   font-size: calc(13px + 4 * (100vw / 1800));
 }
@@ -897,10 +898,11 @@ fieldset {
     width: 100%;
   }
   .blog__col {
-    width: 48%;
+    width: 50%;
   }
   .blog__col_left {
     order: 3;
+    padding-left: 10px;
   }
   .blog__col_s {
     width: 100%;
@@ -908,7 +910,7 @@ fieldset {
   }
   .blog__col_right {
     order: 2;
-    padding-right: 20px;
+    padding-right: 10px;
   }
   .blog__item_s {
     margin: 0 0;
@@ -931,6 +933,15 @@ fieldset {
   }
   .reviews-carousel > .slick-next {
     top: 196px;
+  }
+  .footer-menu__item {
+    margin-bottom: 20px;
+  }
+  .footer-menu__text_p {
+    padding-top: 0;
+  }
+  .copyright__item_sb {
+    justify-content: start;
   }
 }
 

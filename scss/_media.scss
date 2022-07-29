@@ -107,9 +107,10 @@
   }
   .blog {
     &__col {
-      width: 48%;
+      width: 50%;
       &_left {
         order: 3;
+        padding-left: 10px;
       }
       &_s {
         width: 100%;
@@ -117,7 +118,7 @@
       }
       &_right {
         order: 2;
-        padding-right: 20px;
+        padding-right: 10px;
       }
     }
     &__item {
@@ -146,6 +147,26 @@
   }
   .reviews-carousel > .slick-next {
     top: 196px;
+  }
+  .footer {
+    // background-size: auto;
+  }
+  .footer-menu {
+    &__item {
+      margin-bottom: 20px;
+    }
+    &__text {
+      &_p {
+        padding-top: 0;
+      }
+    }
+  }
+  .copyright {
+    &__item {
+      &_sb {
+        justify-content: start;
+      }
+    }
   }
 }
 @media (max-width: 600px) { 
