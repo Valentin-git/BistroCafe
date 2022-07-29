@@ -604,6 +604,14 @@ fieldset {
   font-size: 15px;
 }
 
+.booking-form-enter__input:hover {
+  background: #e7e7e6;
+}
+
+.booking-form-enter__input:focus {
+  background: #e7e7e6;
+}
+
 .blog {
   background: url(../img/blog/bg.jpg) no-repeat;
   background-size: cover;
@@ -745,6 +753,14 @@ fieldset {
   font-size: calc(11px + 4 * (100vw / 1800));
 }
 
+.subscribe__input:hover {
+  background: #404040;
+}
+
+.subscribe__input:focus {
+  background: #404040;
+}
+
 .subscribe__btn {
   color: #ffffff;
   background: #fe7634;
@@ -806,6 +822,7 @@ fieldset {
 
 .copyright {
   color: #a0a0a0;
+  padding-bottom: 30px;
 }
 
 .copyright__item_sb {

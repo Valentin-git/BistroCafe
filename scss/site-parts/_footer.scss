@@ -49,6 +49,12 @@
     font-family: "LatoBold";
     // font-size: 15px;
     font-size: calc(11px + 4 * (100vw / 1800));
+    &:hover {
+      background: #404040;
+    }
+    &:focus {
+      background: #404040;
+    }
   }
   &__btn {
     color: #ffffff;
@@ -109,6 +115,7 @@
 }
 .copyright {
   color: #a0a0a0;
+  padding-bottom: 30px;
   &__item {
     &_sb {
       display: flex;

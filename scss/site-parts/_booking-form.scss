@@ -53,5 +53,11 @@
     height: 48px;
     font-family: "LatoBold";
     font-size: 15px;
+    &:hover {
+      background: #e7e7e6;
+    }
+    &:focus {
+      background: #e7e7e6;
+    }
   }
 }
